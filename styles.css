@@ -3,57 +3,45 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace; /* Default retro font for body text */
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #282c34;
-  color: #ffffff;
+  background: #f6f1e8; /* Light cream background */
+  color: #121314; /* Dark text color */
   text-align: center;
 }
 
 .coming-soon-container {
   max-width: 600px;
   padding: 20px;
+  border: 5px solid #006b7a; /* Teal border for retro accent */
+  border-radius: 15px;
+  background: #f6f1e8; /* Background matches the page */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: #ef7821; /* Retro orange text color */
+  text-transform: uppercase;
+  text-shadow: 3px 3px #121314; /* Retro-style shadow */
+  border-bottom: 2px solid #006b7a; /* Teal underline for emphasis */
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace; /* Title font changed to Courier New */
 }
 
 p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: #121314; /* Dark text color */
+  margin-top: 1rem;
 }
 
-.email-signup {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.email-signup input {
-  padding: 10px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-}
-
-.email-signup button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  color: #ffffff;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.email-signup button:hover {
-  background-color: #0056b3;
+p:hover {
+  color: #006b7a; /* Teal hover effect for text */
+  transition: color 0.3s ease;
 }
